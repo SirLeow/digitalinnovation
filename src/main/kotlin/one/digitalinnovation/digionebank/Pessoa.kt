@@ -1,14 +1,19 @@
 package one.digitalinnovation.digionebank
 
 class Pessoa {
-    var nome:String = "Jether"
+    var nome:String = "Sother"
     var cpf:String = "123.234.112-23"
+
+    inner class Endereco(){
+        var rua:String = "Travessa Angustura"
+    }
 
 }
 
 fun main(){
-    val teste = Pessoa()
+    val sother = Pessoa()
 
-    println(teste.nome)
-    println(teste.cpf)
+    println(sother.nome)
+    println(sother.cpf)
+    println(sother.Endereco().rua)
 }
