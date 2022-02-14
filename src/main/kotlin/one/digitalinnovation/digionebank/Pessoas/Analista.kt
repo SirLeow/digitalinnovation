@@ -1,4 +1,4 @@
-package one.digitalinnovation.digionebank.Funcionarios
+package one.digitalinnovation.digionebank.Pessoas
 
 import one.digitalinnovation.digionebank.Funcionario
 
